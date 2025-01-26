@@ -707,7 +707,7 @@ background-color: rgb(10, 179, 235);
    }
    
 }   
-    @media screen and (min-width:325px) and (max-width:375px) {
+    @media screen and (min-width:325px) and (max-width:370px) {
         /* 365px */
     *{
         margin: 0;
@@ -945,7 +945,7 @@ background-color: rgb(10, 179, 235);
     
  }
 
- @media screen and (min-width:380px) and (max-width:430px) {
+ @media screen and (min-width:372px) and (max-width:430px) {
    /* 400px */
    
     *{
