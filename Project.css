@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    overflow-x: hidden;
+}
 /* .full{
      height: 200vh;
 } */
 .head{
     /* border: 1px solid black; */
     background-color: black;
-    width: 99.9vw;
+    width: 100%;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -90,9 +93,9 @@
     height: 48vh;
     color:blue ;   
 }
-/* .article1{
+.article1{
     width: 100%;
-} */
+}
  .section1{
     text-align: center;
     background-color: rgba(22, 22, 207, 0.714);
@@ -439,13 +442,11 @@ background-color: rgb(10, 179, 235);
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        /* overflow-x: hidden; */
     }
     .head{
-        /* border: 1px solid black; */
         background-color: black;
-        width: 98%;
-        height: 120px;
+        width: 100%;
+        height: 180px;
         display: flex;
         justify-content: space-between;
         padding:30px;
@@ -461,82 +462,70 @@ background-color: rgb(10, 179, 235);
     }
     #buynow1{
         width:200px;
-        height: 70px;
-        /* margin-right: 35px; */
+        height: 100px;
         border-radius: 5px;
         background-color: hsl(120, 88%, 48%);
     }
     #now{
         color: white;
         text-decoration: none;
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
     .buy{
-        /* border: 2px solid rgb(243, 180, 21); */
         width: 200px;
         height: 18vh;
         border-radius: 5px;
         text-align: center;
-        padding: 10px;
-        background-color: rgb(243, 180, 21);
-        
+        padding: 10px;        
     }
     .navigate{
-        /* display:flex ; */
-        /* justify-content: space-between; */
-        width: 98%;
-        height: 30vh;
-        background-color:rgba(0, 0, 255, 0.616);
+        width: 100%;
+        height: 50vh;
         align-items: center;
         padding: 20px;
         position:fixed;
         z-index: 90;
-        top: 100px;
+        top: 150px;
         transition: background-color 0.3s ease, color 0.3s ease;
         
     }
+    #cla1{
+        font-size: 50px;
+    }
     #tag1{
         text-decoration: none;
-        font-size: 30px;
+        font-size: 50px;
         color: black;
-        margin-top: 10px;
+        margin-top: 50px;
+    }
+    .buy{
+        width: 300px;
+        height: 30vh;
     }
     .article1{
-        width: 310%;
+        width: 410%;
+        margin-top: 180px;
     }
-    .section1{
-        text-align: center;
-        background-color: rgba(22, 22, 207, 0.714);
-        /* padding: 30px; */
-        padding-top: 300px;
-        width: 98%;
-     }
      #No1{
+        margin-top: 150px;
         width: 80%;
-        height: 48vh;
-        color:blue ;   
+        height: 55vh;
     }
     .section1b{
-        margin-top: -6%;
         font-size: 5rem;
-        color:white;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        font-weight: bold;
-        line-height: 1.1;
+     }
+     .ptag{
+        font-size: 5rem;
      }
      .carosel{
-        background-color: lightblue;
-        padding: 70px 70px;
-        border: 0px solid black;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        width: 304%;
+        width: 410%;
+     }
+     #complete{
+        width: 410%;
      }
      .section{
         display: flex;
         flex-wrap: wrap;
-        /* grid-template-columns:50% 50%; */
-        /* margin-left: 40px; */
-        /* margin: 70px; */
         padding-left: 150px;
         padding-bottom: 100px;
      }
@@ -560,7 +549,6 @@ background-color: rgb(10, 179, 235);
      .bakery{
         margin-left: 40px;
         margin-top: 20px;
-        /* margin-right: 30px; */
      }
      #demo1{
         padding:29px ;
@@ -572,23 +560,17 @@ background-color: rgb(10, 179, 235);
      }
      .section2{
         display: block;
-        /* flex-wrap: wrap; */
-        /* justify-content: space-evenly; */
-        /* background-color: #4E5A94; */
-        /* margin-top: -70px; */
         padding: 20%;
-        /* color: white; */
-        /* padding-bottom: 100px; */
-        width: 304%;
+        width: 410%;
     }
     .sec2a{
         padding: 50px;
     }
     .sec2a1{
-        font-size: 6rem;
+        font-size: 10rem;
     }
     .sec2a2{
-        font-size:3rem;
+        font-size:4rem;
     }
     .sec2a3{
         display: block;
@@ -601,14 +583,7 @@ background-color: rgb(10, 179, 235);
     }
     .article{
         display: block;
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-        /* justify-content: space-evenly; */
-        /* padding-top: 7%;  */
-        /* color: black; */
-        /* background-color: whitesmoke; */
-        /* padding-bottom: 100px; */
-        width: 304%;
+        width: 410%;
     }
     .art1{
         padding-left: 25%;
@@ -627,13 +602,12 @@ background-color: rgb(10, 179, 235);
     }
     #art2b{
         font-size: 2rem;
+        line-height: 2;
     }
     #art2c{
         font-size: 2rem;
     }
     .paras{
-        /* display: flex; */
-        /* justify-content: center; */
         font-size:1rem;
         padding-top: 3%;
         color: white;
@@ -649,24 +623,12 @@ background-color: rgb(10, 179, 235);
         line-height: 2.1;
      }
      #start{
-        /* width: 250px; */
-        /* height: 500px;  */
-        /* text-align: center; */
         padding: 10%;
-        /* background-color:#FFD700; */
-        /* text-decoration: none; */
         font-size: 2rem;
-        /* color: black; */
-        /* border-radius: 10PX; */
-        /* font-weight: bold; */
-        /* margin-top: 40px; */
-        /* margin-bottom: 150px; */
      }
      .atag{
         padding-bottom: 150px;
         padding-top: 100px;
-        /* display: flex; */
-        /* justify-content: center;   */
      }
      .complete{
         background-color:whitesmoke;
@@ -683,57 +645,67 @@ background-color: rgb(10, 179, 235);
         padding-top: 100px;
         background-color: rgb(10, 179, 235);
         padding: 50px;
-        width: 304%;
+        width: 410%;
         
     }
+    #imph1{
+        font-size: 8rem;
+    }
+    #imppre{
+        font-size: 2.5rem;
+    }
     main{
-        display: flex;
-        flex-wrap: wrap;
-        /* grid-template-columns:33% 33% 33%; */
-        /* padding:-50px;   */
-        /* gap: 20px;
-        margin-left: 130px;
-        margin-right: 160px;
-        margin-top: 50px;
-        margin-bottom: 50px; */
-    }
-    .part1{
-        width: 299%;
-    }
-    #pre{
-        text-align: center;
-        font-family:"Times New Roman", Times, serif;
-        font-size: 30px;
         display: block;
     }
+    .cards-imp{
+        width: 600px;
+        height:600px ;
+       }
+       #right{
+        font-size: 8rem;
+       }
+       #cardh3{
+        font-size: 3rem;
+        padding: 50px;
+       }
+       #cardp{
+        font-size: 2rem;
+        line-height: 1.5;
+       }
+    
+    .part1{
+        width: 410%;
+    }
+    #pre{
+        font-size: 3rem;
+    }
     .cards{
-        width: 299%;
+        width: 410%;
+    }
+    .car{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-icon{
+        margin-left: 50px;
     }
     .footer{
-        width: 299%;
+        width: 410%;
+    }
+    #fh1{
+        font-size: 5rem;
     }
    .part3{
     width: 50%;
-    height: 150px;
-    /* margin-left: 25%; */
+    height: 30%;
     margin:100px 0px 0px 25% ;
-    /* padding: 10px; */
-    /* text-align: center; */
+    font-size: 3rem;
    }
    #part3a{
-    padding: 15%;
+    padding: 10%;
    }
-   .cards-imp{
-    width: 600px;
-    height:400px ;
-   }
-   #right{
-    padding-top: 70px;
-   }
-   #cardh3{
-    padding: 50px;
-   }
-
+   
 }   
     @media screen and (min-width:325px) and (max-width:375px) {
         /* 365px */
@@ -761,7 +733,6 @@ background-color: rgb(10, 179, 235);
     #now{
         font-size: 4rem;
         font-weight: bold; 
-        /* padding: 5px; */
     }    
     .navigate{
         top: 10%;
@@ -862,12 +833,12 @@ background-color: rgb(10, 179, 235);
     }
     #demo1{
         font-size: 3rem;
-        padding: 75px;
+        padding: 40px;
         border-radius: 30px;
     }
     #demo2{
         font-size:3rem ;
-        padding: 75px;
+        padding: 40px;
         border-radius: 30px;
     }
     .section2{
@@ -945,6 +916,16 @@ background-color: rgb(10, 179, 235);
     .cards{
         width: 395%;
     }
+    .car{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .card-icon{
+        margin-left: 80px;
+        margin-top: 190px;
+    }
     .footer{
         width: 395%;
     }
@@ -952,7 +933,7 @@ background-color: rgb(10, 179, 235);
         font-size: 8rem;
     }
     .part2b,#partf{
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     .part3{
         width: 700px;
@@ -966,6 +947,7 @@ background-color: rgb(10, 179, 235);
 
  @media screen and (min-width:380px) and (max-width:430px) {
    /* 400px */
+   
     *{
       margin: 0;
       padding: 0;
@@ -973,11 +955,11 @@ background-color: rgb(10, 179, 235);
     }
     .head{
         width: 100%;
-        height: 30vh;
+        height: 40vh;
         padding: 30px;
     }
     #firstimg{
-        width: 40%;
+        width: 60%;
         padding: 30px;
     }
     #buynow1{
@@ -993,7 +975,7 @@ background-color: rgb(10, 179, 235);
     }
     .navigate{
         width: 100%;
-        height: 30vh;
+        height: 50vh;
         margin-top: 110px;
     }
     #cla1{
@@ -1009,8 +991,8 @@ background-color: rgb(10, 179, 235);
         font-weight: bold;
     }
     .article1{
-        width: 350%;
-        margin-top: 350px;
+        width: 400%;
+        margin-top: 480px;
     }
     .section1{
         padding-bottom: 250px;
@@ -1035,10 +1017,10 @@ background-color: rgb(10, 179, 235);
         padding: 100px;
     }
     .carosel{
-        width: 350%;
+        width: 400%;
     }
     .complete{
-        width: 350%;
+        width: 400%;
     }
     #h1{
         font-size: 9rem;
@@ -1085,7 +1067,7 @@ background-color: rgb(10, 179, 235);
         margin-left: 20px;
     }
     .section2{
-        width: 350%;
+        width: 400%;
         display: block;
         padding:100px 0px 100px 150px;
     }
@@ -1104,7 +1086,7 @@ background-color: rgb(10, 179, 235);
         font-weight: bold;
     }
     .article{
-        width: 350%;
+        width: 400%;
         display: block;
         padding:150px 0px 150px 300px ;
     }
@@ -1119,7 +1101,7 @@ background-color: rgb(10, 179, 235);
         font-size: 4rem;
     }
     .imp{
-        width: 350%;
+        width: 400%;
     }
     #imph1{
         font-size: 9rem;
@@ -1145,16 +1127,22 @@ background-color: rgb(10, 179, 235);
         line-height: 1.5;
     }
     .part1{
-        width: 350%;
+        width: 400%;
     }
     #pre{
         font-size: 3.5rem;
     }
     .cards{
-        width: 350%;
+        width: 400%;
+    }
+    .car{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
     .footer{
-        width: 350%;
+        width: 400%;
     }
     #fh1{
         font-size: 9rem;
@@ -1173,6 +1161,9 @@ background-color: rgb(10, 179, 235);
 
  @media screen and (min-width:450px) and (max-width:775px) {
     /* 680px */
+    html{
+        overflow-x: hidden;
+    }
     *{
         margin: 0;
         padding: 0;
@@ -1180,7 +1171,7 @@ background-color: rgb(10, 179, 235);
     }
     .head{
         width: 100%;
-        height: 20vh;
+        height: 25vh;
     }
     #firstimg{
         width: 30%;
@@ -1198,7 +1189,7 @@ background-color: rgb(10, 179, 235);
     }
     .navigate{
         width: 100%;
-        height: 35vh;
+        height: 55vh;
         padding: 50px;
     }
     #cla1{
@@ -1209,13 +1200,13 @@ background-color: rgb(10, 179, 235);
     }
     .buy{
         width: 300px;
-        height: 100px;
+        height: 150px;
         padding: 10px;
         font-weight: bold;
     }
     .article1{
-        width: 250%;
-        margin-top: 280px;
+        width: 350%;
+        margin-top: 395px;
     }
     .section1{
         padding-bottom: 100px;
@@ -1239,10 +1230,11 @@ background-color: rgb(10, 179, 235);
         padding: 50px;
     }
     .carosel{
-        width: 250%;
+        width: 350%;
     }
     .complete{
-        width: 250%;
+        width: 350%;
+        /* border: 5px solid black; */
     }
     #h1{
         font-size: 8rem;
@@ -1251,8 +1243,8 @@ background-color: rgb(10, 179, 235);
         font-size: 3rem;
     }
     .section{
-        display: grid;
-        grid-template-columns: 50% 50%;
+        display: block;
+        /* grid-template-columns: 50% 50%; */
     }
     .images{
         /* border: 5px solid black; */
@@ -1260,7 +1252,7 @@ background-color: rgb(10, 179, 235);
         height: 600px;
     }
     .sec2{
-        /* border: 5px solid black; */
+        border: 0px solid black;
         width: 95%;
         height: 55vh;
     }
@@ -1270,22 +1262,24 @@ background-color: rgb(10, 179, 235);
     }
     .bakery{
         margin-top: 50px;
+        margin-left: 120px;
     }
     #demo1{
         font-size: 1.8rem;
-        padding: 25px;
+        padding: 60px;
         border-radius: 10px;
     }
     #demo2{
         font-size: 1.8rem;
-        padding: 25px;
+        padding: 60px;
         border-radius: 10px;
     }
     .section2{
-        width: 250%;
+        width: 350%;
+        display: block;
     }
     #sec2a1{
-        font-size: 4rem;
+        font-size: 9rem;
     }
     #sec2a2{
         font-size: 2rem;
@@ -1299,10 +1293,13 @@ background-color: rgb(10, 179, 235);
         padding-top: 150px;
     }
     .article{
-        width: 250%;
+        width: 345%;
+        display: block;
+        padding-left: 250px;
+        /* border: 5px solid black; */
     }
     #art2a{
-        font-size:4.5rem ;
+        font-size:8rem ;
     }
     #art2b,#art2c{
         font-size: 2rem;
@@ -1312,7 +1309,7 @@ background-color: rgb(10, 179, 235);
         padding-top: 150px;
     }
     .imp{
-        width: 250%;
+        width: 350%;
     }
     #imph1{
         font-size: 8rem;
@@ -1321,8 +1318,8 @@ background-color: rgb(10, 179, 235);
         font-size: 2.5rem;
     }
     main{
-        display: grid;
-        grid-template-columns: 50% 50%;
+        display:block;
+        /* grid-template-columns: 50% 50%; */
     }
     .cards-imp{
         width: 95%;
@@ -1336,16 +1333,22 @@ background-color: rgb(10, 179, 235);
         line-height: 1.2;
     }
     .part1{
-        width: 250%;
+        width: 350%;
     }
     #pre{
         font-size: 3rem;
     }
     .cards{
-        width: 250%;
+        width: 350%;
+    }
+    .car{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
     .footer{
-        width: 250%;
+        width: 350%;
     }
     #fh1{
         font-size: 7rem;
@@ -1403,7 +1406,7 @@ background-color: rgb(10, 179, 235);
         font-weight: bold;
     }
     .article1{
-        width: 143.2%;
+        width: 190%;
         margin-top: 90px;
     }
     #No1{
@@ -1422,10 +1425,10 @@ background-color: rgb(10, 179, 235);
         padding: 30px;
     }
     .carosel{
-        width: 143.2%;
+        width: 190%;
     }
     .complete{
-        width: 143.2%;
+        width: 190%;
     }
     #h1{
         font-size: 5rem;
@@ -1433,14 +1436,46 @@ background-color: rgb(10, 179, 235);
     .ptag{
         font-size: 2rem;
     }
+    .section{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .images{
+        /* border: 5px solid black; */
+        width: 95%;
+        height: 600px;
+    }
+    .sec2{
+        /* border: 0.1px solid black; */
+        width: 95%;
+        height: 45vh;
+    }
+    #h3tag{
+        font-size: 3rem;
+        margin: 30px;
+    }
+    .bakery{
+        margin-top: 30px;
+        /* margin-left: 120px; */
+    }
+    #demo1{
+        font-size: 1.5rem;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    #demo2{
+        font-size: 1.5rem;
+        padding: 10px;
+        border-radius: 10px;
+    }
     .section2{
-        width: 143.2%;
+        width: 190%;
     }
     .article{
-        width: 143.2%;
+        width: 190%;
     }
     .imp{
-        width: 143.2%;
+        width: 190%;
     }
     #imph1{
         font-size: 5rem;
@@ -1452,16 +1487,16 @@ background-color: rgb(10, 179, 235);
         margin: 70px;
     }
     .part1{
-        width: 143.2%;
+        width: 190%;
     }
     #pre{
         font-size: 2rem;
     }
     .cards{
-        width: 143.2%;
+        width: 190%;
     }
     .footer{
-        width: 143.2%;
+        width: 190%;
     }
     #fh1{
         font-size: 3rem;
@@ -1485,6 +1520,7 @@ background-color: rgb(10, 179, 235);
             box-sizing: border-box;
         }
         .navigate{
+            width: 100%;
             height: 13vh;
         }
         .buy{
@@ -1493,8 +1529,42 @@ background-color: rgb(10, 179, 235);
             padding: 8px;
             font-weight: bold;
         }
+        .article1{
+            width: 138%;
+        }
+        .carosel{
+            width:138% ;
+        }
+        .complete{
+            width: 138%;
+        }
         main{
          margin: 70px;
+        }
+        .section2{
+            width: 138%;
+        }
+        .article{
+            width: 138%;
+        }
+        .imp{
+            width: 138%;
+        }
+        .part1{
+            width: 138%;
+        }
+        .cards{
+            width: 138%;
+        }
+        .footer{
+            width: 138%;
+        }
+        .part3{
+            width: 500px;
+            height: 15vh;
+            font-size: 1.5rem;
+            padding: 20px;
+            margin-left: 30%;
         }
 
       }  
